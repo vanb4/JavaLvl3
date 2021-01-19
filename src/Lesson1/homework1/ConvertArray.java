@@ -9,6 +9,7 @@ import java.util.List;
 
 public class ConvertArray {
     public static void main(String[] args) {
+
         String[] arrStr = {"7", "0", "6", "7","67"};
 
         List <String> listStr = convert(arrStr);
@@ -22,6 +23,7 @@ public class ConvertArray {
         System.out.println();
 
         for (String str : listStr){
+
             System.out.print(" " + str);
         }
 

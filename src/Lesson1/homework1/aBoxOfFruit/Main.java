@@ -13,12 +13,18 @@ package Lesson1.homework1.aBoxOfFruit;
 //        g. Не забываем про метод добавления фрукта в коробку.
 
 public class Main {
+
     public static void main(String[] args) {
         Box<Orange> orange = new Box<>();
+
         Box<Apple> apple = new Box<>();
+
         orange.AddToBox(new Orange(),10);
+
         apple.AddToBox(new Apple(),8);
+
         System.out.println("Вес первой коробки: " + orange.getWeight());
+
         System.out.println("Вес второй коробки: " + apple.getWeight());
     }
 }

@@ -12,9 +12,11 @@ public class SwapElements {
         System.out.println();
 
         swap(arrayOfStrings, 3, 5);
+
         swap(arrayOfStrings, 2, 3);
 
         for (String arrayOfString : arrayOfStrings) {
+
             System.out.print(arrayOfString + " ");
         }
 
@@ -26,7 +28,9 @@ public class SwapElements {
             Object temp = arr[indexOne - 1];
             arr[indexOne - 1] = arr[indexTwo - 1];
             arr[indexTwo - 1] = temp;
+
         } else {
+
             System.out.println("Число не входит диапазон индексов массива"  + arr.length);
         }
 
